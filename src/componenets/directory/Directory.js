@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MenuItem from '../menu-item/MenuItem'
+import MenuItem from '../MenuItem/MenuItem'
 import './Directory.style.scss'
 
 export default class Directory extends Component {
