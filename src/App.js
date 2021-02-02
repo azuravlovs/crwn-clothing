@@ -4,9 +4,9 @@ import {connect} from 'react-redux';
 
 import HomePage from './pages/homepage/HomePage';
 import ShopPage from './pages/shop/Shop'
-import Header from './componenets/header/Header'
+import Header from './componenets/Header/Header'
 import SignPage from './pages/SignPage/SignPage'
-import {setCurrentUser} from './redux/user/userActions'
+import {setCurrentUser} from './redux/User/userActions'
 
 import {auth, createUserProfileDocument} from './firebase/firebase'
 

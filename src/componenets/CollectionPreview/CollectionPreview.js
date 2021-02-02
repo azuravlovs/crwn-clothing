@@ -1,6 +1,6 @@
 import React from 'react'
 import './CollectionPreview.style.scss'
-import CollectionItem from '../collection-item/CollectionItem'
+import CollectionItem from '../CollectionItem/CollectionItem'
 
 export default function CollectionPreview({title, items}) {
     return (
