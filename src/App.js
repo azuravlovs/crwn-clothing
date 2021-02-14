@@ -10,7 +10,7 @@ import CheckOutPage from './pages/CheckOutPage/CheckOutPage'
 
 import Header from './componenets/Header/Header'
 
-import {setCurrentUser} from './redux/User/userActions'
+import {setCurrentUser} from './redux/User/useractions'
 import {selectCurrenttUser} from './redux/User/userSelector'
 
 import {auth, createUserProfileDocument} from './firebase/firebase'
